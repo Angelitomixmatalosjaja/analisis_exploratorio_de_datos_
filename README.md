@@ -26,3 +26,7 @@ Esta aplicación web interactiva permite realizar un análisis exploratorio de u
 2. Instala las dependencias: `pip install -r requirements.txt`
 3. Ejecuta la aplicación con: `streamlit run app.py`
 
+## urls
+1. Local URL: http://localhost:8501
+2. Network URL: http://10.220.25.179:8501
+3. External URL: http://44.227.217.144:8501
