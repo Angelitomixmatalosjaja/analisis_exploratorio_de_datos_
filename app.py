@@ -16,7 +16,7 @@ if st.button('Mostrar Histograma de Precios'):
 # Botón para el gráfico de dispersión
 if st.button('Mostrar Gráfico de Dispersión'):
     # Crear un gráfico de dispersión con Plotly Express
-    fig_scatter = px.scatter(df, x="mileage", y="price", title="Precio vs. Kilometraje")
+    fig_scatter = px.scatter(df, x="odometer", y="price", title="Precio vs. Kilometraje")
     st.write("Relación entre precio y kilometraje")
     st.plotly_chart(fig_scatter)
 
@@ -30,6 +30,6 @@ if show_histogram:
     st.plotly_chart(fig_hist)
 
 if show_scatter:
-    fig_scatter = px.scatter(df, x="mileage", y="price", title="Precio vs. Kilometraje")
+    fig_scatter = px.scatter(df, x="odometer", y="price", title="Precio vs. Kilometraje")
     st.write("Relación entre precio y kilometraje")
     st.plotly_chart(fig_scatter)
